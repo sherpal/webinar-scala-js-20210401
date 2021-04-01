@@ -1,0 +1,14 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Serve index page from public directory
+GET     /                           controllers.FrontendController.index()
+
+# Insert other routes here:
+
+GET     /api/hello                  controllers.HomeController.hello()
+POST    /api/a-person               controllers.HomeController.postPerson()
+
+# Serve static assets under public directory
+GET     /*file                      controllers.FrontendController.assetOrDefault(file)

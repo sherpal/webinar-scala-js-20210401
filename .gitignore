@@ -1,0 +1,11 @@
+*/target
+target
+
+.bsp
+.bloop
+.idea
+.vscode
+.metals
+
+project/.bloop
+frontend/node_modules
